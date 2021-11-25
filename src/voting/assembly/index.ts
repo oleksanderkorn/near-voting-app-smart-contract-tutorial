@@ -116,7 +116,7 @@ export class Contract {
     );
     assert(
       goals.length > 0,
-      "Goals is required, who will vote to you withouth "
+      "Goals is required, who will vote to you without the clear goals?"
     );
 
     const date = context.blockTimestamp;
